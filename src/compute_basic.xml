@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE book
+[
+
+<!ENTITY cur_book_name      "compute_basic" >
+<!ENTITY publish_date       "2013-07-27" >
+<!ENTITY release_version    "1.0" >
+
+<!ENTITY copyrith_year "2013" >
+<!ENTITY entity_common_multi_format     SYSTEM  "../../entity_common_multi_format.xml">
+<!ENTITY entity_common_publish_info     SYSTEM  "../../entity_common_publish_info.xml">
+]>
+
+<book version="5.0"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:lang="zh_CN"
+    >
+
+<info>
+    <title>电脑基础知识教程</title>
+    <subtitle></subtitle>
+    <keywordset>
+        <keyword>电脑基础知识</keyword>
+        <keyword>软件基础知识</keyword>
+        <keyword>硬件基础知识</keyword>
+        <keyword>软硬件关系</keyword>
+    </keywordset>
+
+    <abstract>
+        <para>本文主要介绍了电脑使用方面的基础知识，包括软件方面的基础知识和硬件方面的基础知识。</para>
+        &entity_common_multi_format;
+    </abstract>
+
+    <revhistory>
+        <revision>
+            <revnumber>&release_version;</revnumber>
+            <date>&publish_date;</date>
+            <revremark>
+                <orderedlist>
+                    <listitem>把之前的各种帖子整理过来</listitem>
+                </orderedlist>
+            </revremark>
+            <authorinitials>crl</authorinitials>
+        </revision>
+    </revhistory>
+
+    &entity_common_publish_info;
+</info>
+
+<xi:include href="preface.xml" />
+<xi:include href="ch01_computer_knowledge.xml" />
+<xi:include href="ch02_compute_hardware.xml" />
+<xi:include href="ch03_compute_software.xml" />
+<xi:include href="ch04_computer_soft_vs_hw.xml" />
+<xi:include href="reference.xml" />
+
+</book>

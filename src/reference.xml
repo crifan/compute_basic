@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<bibliography
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="reference">
+
+<bibliomixed xml:id="ref.expand_c_disk">
+  <bibliosource><link xl:href="http://www.crifan.com/try_to_expand_volumn_of_c_disk_using_partitionmagic/">【记录】通过分区工具给C盘扩大容量</link></bibliosource>
+  <author>crifan</author>
+</bibliomixed>
+
+</bibliography>

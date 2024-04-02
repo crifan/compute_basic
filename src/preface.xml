@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE preface
+[
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<preface
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="preface">
+<title>正文之前</title>
+
+<sect1 xml:id="purpose"><title>目的</title>
+    <para>本文旨在用尽可能通俗的语言，解释清楚电脑的基础知识，包括硬件的基础知识，和软件的基础知识。</para>
+    <para>以使得之前对于电脑没啥概念的人，看了之后，能大概对电脑有个更加清晰的认识。</para>
+</sect1>
+
+<sect1 xml:id="declaration"><title>声明</title>
+    <para>任何疑问，意见，建议等，都欢迎一起探讨：admin (at) crifan.com。</para>
+</sect1>
+
+</preface>

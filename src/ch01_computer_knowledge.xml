@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="computer_knowledge">
+<title>电脑基础知识简介</title>
+<abstract></abstract>
+
+<sect1 xml:id="computer_basic_type"><title>电脑基础知识分类</title>
+    <para>电脑的基础知识，主要分三大方面</para>
+    <itemizedlist>
+        <listitem>软件</listitem>
+        <listitem>硬件</listitem>
+        <listitem>软硬件之间的关系</listitem>
+    </itemizedlist>
+    <para>下面就针对这三方面，详细的解释解释。</para>
+</sect1>
+
+</chapter>

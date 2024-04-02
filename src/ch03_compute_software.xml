@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="compute_software">
+<title>电脑基础知识之软件基础知识</title>
+<abstract></abstract>
+
+<sect1 xml:id="os_type"><title>操作系统类型</title>
+    <para>详解：<link xl:href="http://www.crifan.com/explain_what_is_operating_system_in_plain_words/">大白话之什么是操作系统</link></para>
+    <para>主要分三种：</para>
+    <itemizedlist>
+        <listitem>Windows</listitem>
+        <listitem>Linux</listitem>
+        <listitem>Mac</listitem>
+    </itemizedlist>
+    <para>下面详细解释其具体的特点：</para>
+    <sect2 xml:id="os_windows"><title>Windows操作系统</title>
+        <para>相对来说，中国人，最熟悉的操作系统。</para>
+        <para>从古至今，一些耳熟能详的windows的系统有：win95，win98，WinXP，Vista，Win7，Win8等等</para>
+        <para>详解：<link xl:href="http://www.crifan.com/tutorial_what_is_windows_os_xp_win7_win8/">【教程】什么是Windows系统：XP/Win7/Win8</link></para>
+    </sect2>
+    <sect2 xml:id="os_linux"><title>Linux操作系统</title>
+        <para>分很多种不同的发行版（distribution）</para>
+        <para>详解：<link xl:href="http://www.crifan.com/what_is_linux_operating_system">【整理】什么是Linux系统</link></para>
+    </sect2>
+    <sect2 xml:id="os_mac"><title>Mac操作系统</title>
+        <para>Mac，中文名是，苹果，其logo就是那个被咬了一口的苹果</para>
+        <para>也是，相对来说，价格最贵的电脑了。</para>
+        <para>详解：<link xl:href="http://www.crifan.com/tutorial_what_is_mac_os_x">【教程】什么是Mac系统：Mac OS X</link></para>
+    </sect2>
+    <para>更多解释详见：<link xl:href="http://www.crifan.com/software_develop_basic_knowledge_os_type_windows_linux_mac_32bit_64bit">【教程】软件开发基础知识之操作系统类型：Windows/Linux/Mac，32位/64位</link></para>
+</sect1>
+
+<sect1 xml:id="legal_or_pirated"><title>正版系统与盗版系统</title>
+    <para>简单说就是：目前国内，用的最多的系统，很多都是盗版的Windows系统。</para>
+    <para>对于普通消费者来说，盗版系统，使用起来，和正版的，没有任何区别。</para>
+    <para>因为相对来说，盗版的技术，已经太发达了。发达到微软都无法忽视盗版系统这个市场了，都不敢轻易的彻底封杀盗版。（当然也很难彻底封杀）</para>
+    <para>更多解释详见：<link xl:href="http://www.crifan.com/computer_basic_knowledge_os_legal_copy_vs_pirated_edition">【教程】电脑基础知识之操作系统的盗版与正版的关系</link></para>
+</sect1>
+
+<sect1 xml:id="install_os"><title>安装操作系统</title>
+    <sect2 xml:id="install_windows"><title>安装Windows操作系统</title>
+        <para>安装windows操作系统，是个很大的话题。</para>
+        <para>此处只是介绍一下，常见的安装方法，和我个人折腾过的实际例子，供参考：</para>
+        <para><link xl:href="http://www.crifan.com/graphical_hard_disk_installation_ghostxp_system_tutorial_do_not_reinstall_the_system_cd-rom/">硬盘安装Ghostxp系统的图解教程（不用光盘重装系统）</link></para>
+    </sect2>
+    <sect2 xml:id="install_linux"><title>安装Linux操作系统</title>
+        <para>如前所述，Linux有很多发行版本。此处主要介绍，相对用的比较广的，最新的，Ubuntu。</para>
+    </sect2>
+    <sect2 xml:id="install_mac"><title>安装Mac操作系统</title>
+        <para>Mac系统，一般都是买Mac的电脑，自带的。</para>
+        <para>但是也有别人破解的。所以，也是可以通过虚拟机安装的。</para>
+        <para>但此处不详细解释了，细节可参考：<link xl:href="http://www.crifan.com/files/doc/docbook/virtualbox_tutorial/release/htmls/create_mac_vm.html">使用VirtualBox创建Mac类的虚拟机</link></para>
+        <para>但是，对于Mac系统中，有时候也有需求是在Mac系统之上，再去安装Windows系统的。</para>
+        <para>详见：<link xl:href="http://www.crifan.com/for_macbook_air_install_win7_double_system/">【记录】给MacBook Air安装Win7双系统</link></para>
+    </sect2>
+</sect1>
+
+<sect1 xml:id="install_driver"><title>安装驱动</title>
+    <para>因为相对来说，多数人，没怎么接触过Linux，而买Mac系统的也不多。</para>
+    <para>所以，此处所说的安装驱动，更多的时候，指的是，在Windows操作系统中，为某硬件设备安装驱动。</para>
+    <para></para>
+    <para>以前安装驱动，相对比较麻烦，尤其是win98，包括winXP等时代，都还是很折腾的。</para>
+    <para>现在，主要是Win7，Win8等环境下，加上各种辅助安装驱动的软件，所以安装驱动的事情，相对变得比较简单了。</para>
+    <para></para>
+    <para>相对来说，目前最好用的，就是利用：驱动人生，自动帮助我们去下载和安装驱动。</para>
+    <para>详见：<link xl:href="http://www.crifan.com/teach_you_to_use_drive_life_to_install_computer_notebook_driver/">【教程】利用驱动人生软件,实现快速方便智能地安装（笔记本）电脑驱动</link></para>
+    <para></para>
+</sect1>
+
+<sect1 xml:id="os_boot_sequence"><title>操作系统启动顺序</title>
+    <para>详见：<link xl:href="http://www.crifan.com/summary_the_boot_sequence_of_normal_pc_and_virtual_machine/">【整理】操作系统（和虚拟机）的启动过程和启动顺序</link></para>
+    <para></para>
+</sect1>
+
+<sect1 xml:id="disk_partition"><title>磁盘分区</title>
+    <sect2 xml:id="win_disk_part"><title>Windows系统的磁盘分区</title>
+        <para>举例：<link xl:href="http://www.crifan.com/try_to_expand_volumn_of_c_disk_using_partitionmagic/">【记录】通过分区工具给C盘扩大容量</link></para>
+        <para></para>
+    </sect2>
+    <sect2 xml:id="linux_disk_part"><title>Linux系统的磁盘分区</title>
+        <para></para>
+    </sect2>
+    <sect2 xml:id="mac_disk_part"><title>Mac系统的磁盘分区</title>
+        <para></para>
+    </sect2>
+</sect1>
+
+<sect1 xml:id="computer_bios"><title>电脑的BIOS</title>
+    <para>简单来说，就是可以对电脑的基本的一些参数，进行配置。</para>
+    <para>详见：<link xl:href="http://www.crifan.com/what_is_bios_and_how_to_configure_bios/">【教程】什么是BIOS以及如何配置电脑中的BIOS</link></para>
+    <para></para>
+</sect1>
+
+</chapter>

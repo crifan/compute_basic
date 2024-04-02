@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="computer_soft_vs_hw">
+<title>电脑基础知识之软硬件之间的关系</title>
+<abstract></abstract>
+
+<sect1 xml:id="hw_vs_os"><title>硬件与安装的操作系统之间的关系</title>
+    <para>简单说就是：你的电脑的硬件本身，和你在上面安装的操作系统这个软件，没有本质的必然的联系的。</para>
+    <para>详见：<link xl:href="http://www.crifan.com/computer_basic_knowledge_relation_between_computer_hardware_and_installed_os/">【教程】电脑基础知识之电脑硬件和所安装的操作系统的关系</link></para>
+</sect1>
+
+</chapter>

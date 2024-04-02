@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="compute_hardware">
+<title>电脑基础知识之硬件基础知识</title>
+<abstract></abstract>
+
+<sect1 xml:id="common_hw_type"><title>常见的电脑的类型</title>
+    <para>主要有：笔记本，台式机</para>
+    <para>其他的也有很多，相对不那么常见的形式，比如一体机等等。</para>
+    <para>详见：<link xl:href="http://www.crifan.com/computer_basic_knowledge_desktop_notebook_all_in_one">【教程】电脑知识介绍：常见的电脑类型：台式机，笔记本，一体机</link></para>
+</sect1>
+
+<sect1 xml:id="hw_hard_disk"><title>电脑的硬盘</title>
+    <para>用于存储东西的</para>
+    <para>有一些工具，用于帮助查看和诊断硬盘信息的。</para>
+    <para>比如：<link xl:href="http://www.crifan.com/hdtune_detect_out_05_reallocated_sector_count_c4_reallocated_event_count/">【已解决】HD Tune测试硬盘健康状况中：重定位扇区数量-衰退，重定位扇区数据操作数量-警告，如何解决</link></para>
+</sect1>
+
+</chapter>
